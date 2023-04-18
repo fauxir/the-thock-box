@@ -1,8 +1,8 @@
 ![My Image](Spa_structure.jpg)
 
-THE THOCK BOX -  e-commerce website for high-end custom keyboard
+THE THOCK BOX -  e-commerce website for high-end custom keyboard  
 
--> Single Page Aplication written in TypeScript using NextJs framework.
--> Tailwind / SCSS used for styling 
--> GraphQl used for Shopify integration 
--> Prismic Slice Machine used as CMS 
+-> Single Page Aplication written in TypeScript using NextJs framework.  
+-> Tailwind / SCSS used for styling   
+-> GraphQl used for Shopify integration   
+-> Prismic Slice Machine used as CMS   

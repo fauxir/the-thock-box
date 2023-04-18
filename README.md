@@ -1,4 +1,4 @@
-![Alt text](/Spa_structure.png "Optional title")
+![My Image](Spa_structure.jpg)
 
 THE THOCK BOX -  e-commerce website for high-end custom keyboard
 

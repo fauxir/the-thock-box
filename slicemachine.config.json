@@ -1,0 +1,5 @@
+{
+  "repositoryName": "the-thock-box",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"]
+}

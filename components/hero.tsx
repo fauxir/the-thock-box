@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex justify-around">
+    <div className="flex justify-around bg-slate-50">
       <div>
         <Image src="/Main_logo.png" alt="Main logo" width={500} height={500}/>
       </div>

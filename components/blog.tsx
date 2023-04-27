@@ -4,6 +4,7 @@ function Blog() {
             <p>
                 Blog
             </p>
+            <p>Blogs from Prismic</p>
         </div>
      );
 }

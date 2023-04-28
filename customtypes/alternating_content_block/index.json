@@ -1,0 +1,7 @@
+{
+  "id": "alternating_content_block",
+  "label": "Alternating content block",
+  "repeatable": true,
+  "status": true,
+  "json": { "Main": {} }
+}

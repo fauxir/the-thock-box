@@ -1,13 +1,20 @@
 import Image from "next/image";
+import { gql, GraphQLClient } from "graphql-request";
 
 interface Produts {}
 
 function Shop(products: any) {
-  return (
+  
+  console.log("the products are: ", products)
+  return(
+
     <div>
       <div className="flex flex-row py-6 px-6 justify-around bg-orange-200">
-        {products.products.map((product: any) => (
-          <div key={product.id} className="w-fit flex flex-col bg-orange-100 px-4 py-4">
+        {/* {products.products.map((product: any) => (
+          <div
+            key={product.id}
+            className="w-fit flex flex-col bg-orange-100 px-4 py-4"
+          >
             <Image
               className="w-60 "
               src={product.images[0].src}
@@ -28,7 +35,7 @@ function Shop(products: any) {
               ${product.variants[0].price.amount}
             </p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

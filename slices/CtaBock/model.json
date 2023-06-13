@@ -1,0 +1,16 @@
+{
+  "id": "cta_bock",
+  "type": "SharedSlice",
+  "name": "CtaBock",
+  "description": "CtaBock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

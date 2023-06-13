@@ -1,0 +1,66 @@
+$price_color: #2aba7a;
+$background_image: "https://goo.gl/zg4adq";
+$border-radius: .5rem;
+$bg_color: #a3c5e0;
+$shadow_color: #666;
+.app {
+  background-color: $bg_color;
+  padding: 4em;
+  .product-list {
+    .card {
+      border: none;
+      border-radius: $border-radius;
+      border-color: none;
+      box-shadow: 0.25rem 0.25rem 0.5rem $shadow_color;
+      .card-title {
+        text-transform: capitalize;
+      }
+      .card-footer {
+        background-color: inherit;
+        text-align: right;
+      }
+      .card-img-top {
+        height: 150px;
+        > * {
+          border-radius: $border-radius $border-radius 0 0;
+        }
+      }
+    }
+  }
+  
+  .product-card {
+    max-width: 300px;
+    margin: 0.5rem;
+  }
+  .price {
+    color: $price_color;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+  }
+
+  .crop-img {
+    overflow: hidden;
+    /*hide bounds of image */
+    margin: 0; /*reset margin of figure tag*/
+    img {
+      display: block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .placeholder {
+    background-image: url($background_image);
+    background-size: 50%;
+    padding: 1.5em;
+    height: 150px;
+    text-align: center;
+    img {
+      height: 100%;
+      //width: 100%;
+    }
+  }
+}

@@ -19,8 +19,8 @@ export default function Home({products}: any) {
   )
 }
 
+// Fetch all the Shopify products
 export const getServerSideProps = async () => {
-  // Fetch all the products
   const products = await shopifyClient.product.fetchAll();
   return {
    props: {
